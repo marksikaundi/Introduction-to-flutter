@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Signin extends StatelessWidget {
   @override 
-  Widget build(BuildContext context) {
+  Widget  build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Time Tracker'),
@@ -11,11 +11,11 @@ class Signin extends StatelessWidget {
       body: Container(
         color: Colors.yellow,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Container(
               color: Colors.orange,
               child: SizedBox(
-                width: 100.0,
                 height: 100.0,
               ),
             )
